@@ -1,0 +1,96 @@
+.inputs-contact {
+    display: grid;
+    grid-template-columns: 100%;
+}
+.contact-section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.contact-form {
+	margin: 0 auto;
+	margin-block: 10px;
+    padding: 30px 30px;
+    box-shadow: 1px 1px 10px rgb(189, 189, 189);
+	border-radius: 10px;
+	width: 80%;
+
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+textarea {
+    font-size: 20px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(164, 162, 162);
+    transition: outline 200ms linear;
+}
+textarea:focus {
+    outline: 4px solid rgba(13, 129, 230, 0.516);
+}
+
+.contact-img-sec {
+    text-align: center;
+}
+
+.issuesList {
+    margin-top: 20px;
+}
+.issueItemHeading {
+    font-size: 24px;
+	margin-block: 20px;
+
+}
+.issue-top-sec {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.card-circle {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(19, 86, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+.fnameheading {
+    font-size: 19px;
+    text-transform: capitalize;
+    color: rgb(99, 99, 94);
+}
+.Discription {
+    font-weight: bold;
+    color: black;
+}
+.dis-para
+{
+	color: rgb(44, 43, 43);
+	font-size: 18px;
+}
+.status
+{
+	color: red;
+	font-style: italic;
+}
+.issueItem
+{
+	box-shadow: 1px 1px 10px rgb(175, 175, 175);
+	padding: 15px 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.issueItem > * + *
+{
+	margin-top: 8px;
+}

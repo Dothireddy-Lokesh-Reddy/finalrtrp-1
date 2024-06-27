@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --clr-text: rgb(63, 60, 60);
+}
+ul {
+    list-style-type: none;
+}
+div.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.dark-bg {
+    background-color: rgb(15, 15, 15);
+}
+.dark-heading {
+    color: white;
+}
+
+.border-white {
+    border: 2px solid white;
+}
+.text-white {
+    color: rgb(139, 139, 139);
+}
+
+img {
+    user-select: none;
+}
